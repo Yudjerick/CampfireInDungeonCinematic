@@ -27,7 +27,7 @@ MonoBehaviour:
   m_Name: Outline
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 600
+  injectionPoint: 550
   fetchColorBuffer: 1
   requirements: -1
   passMaterial: {fileID: 2100000, guid: c35fc89af18cce84b97f68905101ef35, type: 2}
@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: FullScreenPassRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 600
+  injectionPoint: 450
   fetchColorBuffer: 1
-  requirements: 0
+  requirements: 1
   passMaterial: {fileID: 2100000, guid: 1ec5906106a6f894092be7f7c67538b2, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: FullScreenPassRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 600
+  injectionPoint: 550
   fetchColorBuffer: 1
   requirements: -1
   passMaterial: {fileID: 2100000, guid: cef8c9bcd6ce25648b572becac55e969, type: 2}
